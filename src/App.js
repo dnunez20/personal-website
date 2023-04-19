@@ -18,8 +18,6 @@ export default function App() {
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/about" element={<AboutMe/>} />
-                <Route path="/progression" element={<Progression />} />
-                <Route path="/resume" element={<Resume/>}/>
             </Routes>
         </Box>
     );

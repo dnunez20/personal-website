@@ -20,6 +20,7 @@ import WorkIcon from '@mui/icons-material/Work';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 import photo from '../assets/profilephoto.jpeg';
 import { Link } from "react-router-dom";
@@ -43,9 +44,8 @@ export function MUIToolbar() {
 
 const drawerWidth = 240;
 const menuItems = [
+    {text: "Work Experience", path: "/", icon: (<WorkIcon/>)},
     {text: "About Me", path: "/about", icon: (<InfoIcon/>)},
-    {text: "Work Experience", path: "/resume", icon: (<WorkIcon/>)},
-    {text: "Progression", path: "/progression", icon: (<ArticleIcon/>)},
 ];
 
 
@@ -79,6 +79,12 @@ export default function Sidebar() {
                         <ListItemButton href="https://www.github.com/dnunez20" target="_blank">
                             <ListItemIcon><GitHubIcon/></ListItemIcon>
                             <ListItemText primary="Github"></ListItemText>
+                        </ListItemButton>
+                    </ListItem>
+                    <ListItem key="LinkedIn" disablePadding>
+                        <ListItemButton href="https://www.linkedin.com/in/daniel-nunez97/" target="_blank">
+                            <ListItemIcon><LinkedInIcon/></ListItemIcon>
+                            <ListItemText primary="LinkedIn"></ListItemText>
                         </ListItemButton>
                     </ListItem>
                 </List>

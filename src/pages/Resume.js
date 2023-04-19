@@ -1,36 +1,48 @@
 import React from 'react';
-import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
 
 export default function Resume() {
     return (
-        <div>
-            <Typography paragraph>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Rhoncus dolor purus non
-                enim praesent elementum facilisis leo vel. Risus at ultrices mi tempus
-                imperdiet. Semper risus in hendrerit gravida rutrum quisque non tellus.
-                Convallis convallis tellus id interdum velit laoreet id donec ultrices.
-                Odio morbi quis commodo odio aenean sed adipiscing. Amet nisl suscipit
-                adipiscing bibendum est ultricies integer quis. Cursus euismod quis viverra
-                nibh cras. Metus vulputate eu scelerisque felis imperdiet proin fermentum
-                leo. Mauris commodo quis imperdiet massa tincidunt. Cras tincidunt lobortis
-                feugiat vivamus at augue. At augue eget arcu dictum varius duis at
-                consectetur lorem. Velit sed ullamcorper morbi tincidunt. Lorem donec massa
-                sapien faucibus et molestie ac.
-            </Typography>
-            <Typography paragraph>
-                Consequat mauris nunc congue nisi vitae suscipit. Fringilla est ullamcorper
-                eget nulla facilisi etiam dignissim diam. Pulvinar elementum integer enim
-                neque volutpat ac tincidunt. Ornare suspendisse sed nisi lacus sed viverra
-                tellus. Purus sit amet volutpat consequat mauris. Elementum eu facilisis
-                sed odio morbi. Euismod lacinia at quis risus sed vulputate odio. Morbi
-                tincidunt ornare massa eget egestas purus viverra accumsan in. In hendrerit
-                gravida rutrum quisque non tellus orci ac. Pellentesque nec nam aliquam sem
-                et tortor. Habitant morbi tristique senectus et. Adipiscing elit duis
-                tristique sollicitudin nibh sit. Ornare aenean euismod elementum nisi quis
-                eleifend. Commodo viverra maecenas accumsan lacus vel facilisis. Nulla
-                posuere sollicitudin aliquam ultrices sagittis orci a.
-            </Typography>
-        </div>
+        <Box>
+            <h1> Work Experience </h1>
+            <ul>
+                <h4>
+                    Pearson
+                </h4>
+                <li>
+                    Developed an email monitoring application to log and track critical server information, enabling timely resolution of server problems and preventing potential downtime in Python
+                </li>
+                <li>
+                    Conducted thorough code reviews in Python for team members with limited programming experience
+                </li>
+                <li>
+                    Performed tasks in SolarWinds such as enabling/disabling user access and pushing updates to running scripts
+                </li>
+                <h4>
+                    Siemens
+                </h4>
+                <li>
+                    Engineered back and front-end features in Visual Basic .NET for an application to generate auto parts
+                </li>
+                <li>
+                    Designed a new front-end theme for a suite of applications, achieving a consistent and cohesive user experience
+                </li>
+                <li>
+                    Improved 3D model generation process, achieved 10x faster model
+                </li>
+                <h4>
+                    John Deere
+                </h4>
+                <li>
+                    Built a self-service cost management tool to monitor Amazon Web Service spending at the facilit
+                </li>
+                <li>
+                    Utilized PHP, JavaScript, and MySQL to fit seamlessly alongside existing tools used by the infrastructure team
+                </li>
+                <li>
+                    Collaborated with John Deere Security to configure IAM permissions to allow appropriate user access
+                </li>
+            </ul>
+        </Box>
     );
 }
